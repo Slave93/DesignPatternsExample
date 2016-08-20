@@ -1,17 +1,17 @@
 # DesignPatternsExample
-Applying design patterns in the case of simple ERP console applications written in Java.
+Applying design patterns in the case of simple ERP console application written in Java.
 
 # Specification
-"ConsoleERP" application is used for creating and processing offers and invoices in pdf format.
+"ConsoleERP" application is used for creating, processing and PDF exporting offers and invoices.
 Application is also used for managing products and services that are used for creating offers and invoices.
 
 # Arhitecture
-There are four main parts of the application:
-1.Database: used for storing documents, products and services. Singleton pattern is applied in this section.
+There are four main parts of the application:<br>
+1.Database: used for storing documents, products and services. <b>Singleton pattern</b> is applied in this section.<br>
 2.Model: implements classes that represent documents, products and services, and classes
-responsible for their creation. In this section 5 paterns are applied: Composite, Builder, Adapter,
-Template method and Decorator patern.
-3.Util: implements classes responsible for managing document status, tax, pdf generation... This section implements State and Observer patern.
+responsible for their creation. In this section 5 paterns are applied: <b>Composite, Builder, Adapter,
+Template method and Decorator patern</b>.<br>
+3.Util: implements classes responsible for managing document status, tax, pdf generation... This section implements <b>State and Observer patern</b>.<br>
 4.Client(package main): represents front end part of the application implemented console way. 
 
 # Important note
