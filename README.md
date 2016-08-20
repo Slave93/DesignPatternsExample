@@ -16,3 +16,7 @@ Template method and Decorator patern</b>.<br>
 
 # Important note
 This application is created with purpose of learning software design patterns and is not suitable for real world business case consumption.
+
+# Documentation
+In-depth documentation is placed in the root of the respository: documentation.pdf. Documentation is written is Serbian language, because
+it was created as a part of a student project at the Faculty of Organizational Sciences.
